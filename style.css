@@ -1,0 +1,41 @@
+/* Navbar */
+.Nav{
+    display:block;
+}
+.Image{
+    width:50px;
+    height:50px;
+}
+/* Body Color */
+.background{
+    background-color: #5a6374
+}
+/* Main picture */
+.picture{
+    margin-bottom: 100px;
+}
+.Welcome{
+    text-align: center;
+}
+/* Form */
+#myForm{
+    text-align:center;
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+/* Table */
+#table{
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10%;
+}
+/* Footer */
+#foot{
+    color: #c59183;
+    text-align: center;
+    padding-top: 10%;
+}
