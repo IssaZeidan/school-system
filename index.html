@@ -36,9 +36,30 @@
         
       <img class="picture" src="./School-photo-2831794.jpeg" width="100%" alt="Image">
       <h1 class="Welcome">z-international-school</h1>
-      <form onsubmit="handleSubmitForm(event)" id="myForm">
-        
-        <input type="text" name="fullName" placeholder="Full name" required />
+      
+      <!-- <form onsubmit="handleSubmitForm(event)" id="myForm"> -->
+        <form id="datasub" >
+          <h3>Add user informations</h3>
+            <div class="inputs">
+            <input id="username"   name="username"   placeholder="Full name"     type="text" id="name_link0" >  
+            
+            <input id="userpassword"  name="userpassword"  placeholder="password"   type="password" id="category_0" >
+            <input id="userEmail"    name="useremail"    placeholder="Email" type="text" id="link_add_0" >
+    
+            <input id="usernumber" name="usernumber" placeholder="phone number"  type="text" id="category_0" >
+  
+       
+                
+            </div>
+            <div class="inputs">
+                <input id="subinput0" type="submit" value="submit" >
+    
+            </div>
+           
+     
+        </form>
+
+                <!-- <input type="text" name="fullName" placeholder="Full name" required />
         <input type="date" name="date" placeholder="Date" required />
         <label>
           Male
@@ -63,6 +84,7 @@
         <label
           >Major
           <select name="major">
+            <option value=""></option>
             <option value="Administration">Administration</option>
             <option value="Science">Science</option>
             <option value="IT">IT</option>
@@ -71,6 +93,8 @@
         </label>
         <input type="submit" name="submit" value="submit" />
       </form>
+ -->
+      
       <!-- <table id="table">
         <thead>
           <tr>
@@ -91,12 +115,12 @@
     <footer>
       <p id="foot">
         &copy; 2023, Made with ❤ by
-        <a
+        < a
           id="fot"
           href="https://www.linkedin.com/in/issa-zeidan-599790166/"
           target="_blank"
           >Issa Zeidan
-        </a>
+        </>
       </p>
     </footer>
     <script src="./app.js"></script>
